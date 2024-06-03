@@ -31,7 +31,7 @@ pip install h5py tifffile
    - **Optional:** You can run the script in its `.exe` form without IDE,
      - download here: [luxendo-h5-converter-v4](https://drive.google.com/file/d/1WM5jQPoOsyuh9N5cmqhcpchNJcUYdcZu/view?usp=sharing)
 > [!NOTE]
-> Windows might flag this file as a virus. Once you see the warning, you can click on `More info` and then `Run anyway` to use this program.
+> Windows might flag this file as a risk. Once you see the warning, you can click on `More info` and then `Run anyway` to use this program.
 
 <img width="399" alt="2024-06-03_17h22_32" src="https://github.com/Faculty-of-Agriculture-CSI-Microscopy/Luxendo-MuVi-SPIM-Light-Sheet/assets/55537771/7fef56e4-555a-4ea2-bcd7-f3fb53d6dbb3">
 <img width="399" alt="2024-06-03_17h22_41" src="https://github.com/Faculty-of-Agriculture-CSI-Microscopy/Luxendo-MuVi-SPIM-Light-Sheet/assets/55537771/a9c98f50-6388-49d0-b138-dafacfefe34e">
