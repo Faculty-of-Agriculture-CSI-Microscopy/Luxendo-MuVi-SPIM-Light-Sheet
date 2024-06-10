@@ -7,7 +7,7 @@ This script processes HDF5 files containing 3D datasets and converts them to TIF
 
 ### Features
 
-- Select an input folder containing HDF5 files and JSON metadata files.
+- Select an input folder containing HDF5 files and Luxendo JSON metadata files.
 - Convert HDF5 files to TIFF stacks with proper voxel dimensions.
 - Process files in a single folder or recursively through all subfolders.
 - Maintain the original folder structure for output files in multi-folder processing mode.
