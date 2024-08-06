@@ -166,7 +166,7 @@ def process_all_folders():
 process_single_button = tk.Button(status_root, text="Process Single Folder", command=process_single_folder)
 process_single_button.pack()
 
-process_all_button = tk.Button(status_root, text="Process All Subfolders", command=process_all_folders)
-process_all_button.pack()
+# process_all_button = tk.Button(status_root, text="Process All Subfolders", command=process_all_folders)
+# process_all_button.pack()
 
 status_root.mainloop()
