@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faculty of Agriculture CSI Microscopy — Luxendo MuVi SPIM light sheet guide and h5-to-TIFF converter.">
+    <title>CSI Microscopy — Luxendo MuVi SPIM Light Sheet</title>
+    <link rel="stylesheet" href="https://csi-microscopy.github.io/styles.css">
+    <link rel="stylesheet" href="https://csi-microscopy.github.io/guides/guide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked@4/marked.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="theme-toggle" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+        <a href="https://csi-microscopy.github.io/index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> <span class="text">Home</span></a>
+        <button id="collapse-toggle"><i class="fa-solid fa-angles-left toggle-icon"></i></button>
+    </nav>
+
+    <main>
+        <section id="guide-content">
+            <div id="status-message"><i class="fa-solid fa-spinner fa-spin"></i> Loading guide…</div>
+            <h1 id="guide-title" style="display:none;"></h1>
+            <p class="guide-meta" id="guide-meta" style="display:none;"></p>
+            <div id="markdown-body"></div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Daniel Waiger - Faculty of Agriculture CSI Microscopy</p>
+        </footer>
+    </main>
+
+    <!-- This repo's own README, rendered with the shared CSI Microscopy renderer.
+         A ?path= / ?title= query overrides the defaults below. -->
+    <script>
+        window.GUIDE = { repo: 'Luxendo-MuVi-SPIM-Light-Sheet', branch: 'master', title: 'Luxendo MuVi SPIM Light Sheet' };
+    </script>
+    <script src="https://csi-microscopy.github.io/guides/render.js"></script>
+</body>
+</html>
